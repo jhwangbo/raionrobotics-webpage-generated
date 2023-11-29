@@ -1,0 +1,77 @@
+<svelte:head>
+	<title>Raion Robotics Inc.</title>
+	<meta
+		name="media"
+		content="media"
+	/>
+</svelte:head>
+
+<script>
+	import { onMount } from "svelte"
+	import news_data from "$lib/components/news/news.json"
+	
+	let news_data_shown = []
+	let currentItems = 6;
+	for (let i = 0; i < Math.min(news_data.news.length, currentItems); i++) {
+		news_data_shown.push(news_data.news[0]);
+	}
+	
+	console.log(Math.min(news_data.news.length, currentItems))
+</script>
+
+<div id="news" class="news">
+	{#each news_data_shown as item}
+	<figure>
+		<a href={item.url}>
+			<img src={item.image} alt="news"/>
+		</a>
+		<figcaption class="font-noto">{item.text}</figcaption>
+	</figure>
+	{/each}
+</div>
+
+<div class="button-container">
+	<div id="button" class="show-more-button">
+		{#if currentItems < news_data.length}
+		<button on:click={() => currentItems = currentItems + 6}
+			id="loadmore"
+			type="button"
+			class="font-noto text-white bg-blue-400 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-purple-100 font-medium rounded-lg text-sm px-4 py-4 text-center mr-3 md:mr-0"
+			>Show more
+		</button>
+		{/if}
+	</div>
+</div>
+
+<style>
+	.news {
+		width: 100%;
+		display: grid;
+		padding: 20px;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 20px;
+		justify-content: center;
+  		align-items: center;
+	}
+
+	figure,
+	img {
+		width: 100%;
+		margin: 0;
+	}
+
+	.show-more-button {
+		margin: 20px;
+  		position: absolute;
+  		left: 50%;
+	}
+
+	.button-container { 
+		height: 100px;
+		position: relative;
+	}
+
+	.font-noto {
+		font-family: "Noto Sans";
+	}
+</style>

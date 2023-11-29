@@ -1,0 +1,18 @@
+@tailwind base;
+
+@layer base {
+	@font-face {
+		font-family: 'Noto Sans';
+		src: local('Noto Sans'), local('Noto-Sans'), local('Noto Sans'), local('Noto-Sans'),
+			url('fonts/noto/static/NotoSansKR-Regular.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Noto Sans';
+		src: local('Noto Sans Bold'), local('Noto-Sans-Bold'), local('Noto Sans bold'),
+			local('Noto-Sans-bold'), url('fonts/noto/static/NotoSansKR-Bold.ttf');
+		font-weight: bold;
+		font-display: swap;
+	}
+}
