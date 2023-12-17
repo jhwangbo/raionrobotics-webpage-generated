@@ -7,7 +7,7 @@
 </svelte:head>
 
 <!-- Optional: some overlay text to describe the video -->
-<section class="video-wrapper -z-30 position:absolute">
+<section class="video-wrapper -z-30 position:relative" style="width: 100vw; height: 35vw">
 	<video playsinline autoplay muted loop>
 		<source src="/video/raibo1_640.mp4" type="video/mp4">
 		Your browser does not support the video tag.
@@ -30,10 +30,6 @@
 </section> -->
 
 <style>
-	.font-noto {
-		font-family: "Noto Sans";
-	}
-
 	video {
 		position: absolute;
 		top: 0;

@@ -15,7 +15,8 @@
 
 <style>
 	.gallery {
-		width: 100%;
+		width: 50vw;
+		margin: auto;
 		display: grid;
 		padding: 20px;
 		grid-template-columns: repeat(2, 1fr);
@@ -25,7 +26,7 @@
 	}
 
 	iframe {
-		width: 48vw; 
-		height: 27vw; /* 100/56.25 = 560/315 = 1.778 */
+		width: 23vw; 
+		height: 12.9375vw; /* 100/56.25 = 560/315 = 1.778 */
 	}
 </style>
