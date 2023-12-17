@@ -7,21 +7,12 @@
 </svelte:head>
 
 <!-- Optional: some overlay text to describe the video -->
-<div class="video-wrapper -z-30 position:absolute">
+<section class="video-wrapper -z-30 position:absolute">
 	<video playsinline autoplay muted loop>
 		<source src="/video/raibo1_640.mp4" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>
-	<div class="mr-auto place-self-center lg:col-span-7">
-		<h1 class="font-noto indent-8 max-w-2xl mb-4 text-4xl text-white font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">
-			라이보
-		</h1>
-		<p class="font-noto indent-8 max-w-2xl mb-6 font-bold text-white lg:mb-8 md:text-lg lg:text-xl">
-			모든 지형을 위한 사족 로봇 솔루션
-		</p>
-
-	</div>
-</div>
+</section>
 <!-- <section id="hero" class="video-wrapper">
 	<div class="video" style="background-image: url('/video/raibo1.mp4');">
 		<div class="grid max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-0 lg:pt-16 lg:grid-cols-12">
