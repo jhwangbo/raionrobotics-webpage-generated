@@ -32,7 +32,7 @@
 								fill="#BDBDBD"
 							/>
 						</svg>
-						<a href="tel:9051290512">+9051290512</a>
+						<a href="tel:9051290512">-</a>
 					</li>
 					<li class="font-noto flex items-center gap-1">
 						<svg
@@ -47,7 +47,7 @@
 								fill="#BDBDBD"
 							/>
 						</svg>
-						<a href="mailto:contact@company.com">contact@company.com</a>
+						<a href="mailto:contact@company.com">-</a>
 					</li>
 				</ul>
 			</div>

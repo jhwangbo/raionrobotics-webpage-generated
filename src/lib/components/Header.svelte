@@ -11,7 +11,7 @@
 				<p><a href="/"><img src="/images/logo_f2-02.png" width="157" alt="Logo" /></a></p>
 			</div>
 			<div
-				class="items-center justify-between w-full md:flex md:w-auto md:order-1"
+				class="items-center justify-between w-full md:flex md:w-auto md:order-1 z-30"
 				id="navbar-sticky"
 			>
 				<ul
@@ -20,14 +20,14 @@
 					<li>
 						<a
 							href="/"
-							class="font-noto font-bold block py-5 pl-3 pr-4 text-xl rounded md:bg-transparent md:text-purple-700 md:p-0"
+							class="font-noto font-bold block py-5 pl-3 pr-4 text-xl rounded md:bg-transparent md:text-black-700 md:p-0"
 							aria-current="page">홈
 						</a>
 					</li>
 					<li>
 						<a
 							href="/team"
-							class="font-noto font-bold block py-2 pl-3 pr-4 text-xl rounded md:bg-transparent md:text-purple-700 md:p-0"
+							class="font-noto font-bold block py-2 pl-3 pr-4 text-xl rounded md:bg-transparent md:text-black-700 md:p-0"
 							aria-current="page">회사소개
 						</a>
 					</li>
@@ -36,31 +36,31 @@
 							<span
 								slot='toggle'
 								href="/product/Raibo2"
-								class="font-noto font-bold block py-2 pl-3 pr-4 text-xl rounded md:bg-transparent md:text-purple-700 md:p-0"
+								class="font-noto font-bold block py-2 pl-3 pr-4 text-xl rounded md:bg-transparent md:text-black-700 md:p-0"
 								aria-current="page">제품
 							</span>
+							<MenuItem><a href="/product/Raibo1">라이보1</a></MenuItem>
 							<MenuItem><a href="/product/Raibo2">라이보2</a></MenuItem>
-							<MenuItem><a href="#?">barfoo</a></MenuItem>
 						</Menu>
 					</li>
 					<li>
 						<a
 							href="/media"
-							class="font-noto font-bold block py-2 pl-3 pr-4 text-xl rounded md:bg-transparent md:text-purple-700 md:p-0"
+							class="font-noto font-bold block py-2 pl-3 pr-4 text-xl rounded md:bg-transparent md:text-black-700 md:p-0"
 							aria-current="page">뉴스
 						</a>
 					</li>
 					<li>
 						<a
 							href="/gallery"
-							class="font-noto font-bold block py-2 pl-3 pr-4 text-xl rounded md:bg-transparent md:text-purple-700 md:p-0"
+							class="font-noto font-bold block py-2 pl-3 pr-4 text-xl rounded md:bg-transparent md:text-black-700 md:p-0"
 							aria-current="page">갤러리
 						</a>
 					</li>
 					<li>
 						<a
 							href="/hiring"
-							class="font-noto font-bold block py-2 pl-3 pr-4 text-xl rounded md:bg-transparent md:text-purple-700 md:p-0"
+							class="font-noto font-bold block py-2 pl-3 pr-4 text-xl rounded md:bg-transparent md:text-black-700 md:p-0"
 							>채용
 						</a>
 					</li>

@@ -18,7 +18,7 @@
     display: none;
     margin-block-start: 0;
     padding: 0;
-    background-color: rgb(235, 234, 234);
+    background-color: rgb(245, 245, 245);
     visibility: hidden;
     opacity: 0;
     overflow: hidden;

@@ -7,7 +7,7 @@
 </svelte:head>
 
 <!-- Optional: some overlay text to describe the video -->
-<div class="video-wrapper">
+<div class="video-wrapper -z-30 position:absolute">
 	<video playsinline autoplay muted loop>
 		<source src="/video/raibo1_640.mp4" type="video/mp4">
 		Your browser does not support the video tag.
@@ -50,7 +50,7 @@
 		object-fit: cover;
 		height: 100%;
 		width: 100%;
-		z-index: -20;
+		z-index: 0;
 	}
 	.video-wrapper {
 		height: 800px;
