@@ -43,6 +43,7 @@
 			type="button"
 			class="button-class"
 			text-color="white"
+			margin="auto"
 			>더보기
 		</button>
 		{/if}
@@ -81,9 +82,9 @@
 	}
 
 	.show-more-button {
-		margin: 20px;
+		margin: auto;
   		position: relative;
-  		left: 50%;
+		text-align: center;
 	}
 
 	.button-container { 
